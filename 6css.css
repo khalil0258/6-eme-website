@@ -1,0 +1,405 @@
+*{ box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    
+}
+.container{
+    margin: 0 auto;
+    width: 1070px;
+    
+}
+/*start of navebar*/
+.navebar{
+    height: 40px;
+    overflow: hidden;
+    background-color: black;
+    overflow: hidden;
+}
+.navebar ul{
+    float: left;
+}
+.navebar ul li{
+    list-style: none;
+    padding: 10px ;
+     float: left;
+    margin: 0 30px;
+    
+}
+.navebar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: serif;
+    color: darkgray;
+}
+
+/*end of navebar*/
+/*start of header*/
+.header{
+    text-align: center;
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    
+}
+.header h1{
+    color: black;
+    font-size: 70px;
+    letter-spacing: 4px;
+    line-height: 40x;
+    margin-top: 70px;
+    font-weight: 200;
+}
+/*end of header*/
+/*start of navebar2*/
+.navebar2{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.navebar2 ul li{
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+}
+.navebar2 ul li a{
+ text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 550;
+    transition: .4s;
+}
+.navebar2 ul li a:hover{
+    color: palevioletred;
+}
+/*end of navebar2*/
+/*start of pic1*/
+.pic1{ 
+    margin-top: 50px;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.pic1 .pics0{
+    float: left;
+    text-align: center;
+    width: 70%;
+    height: 470px;
+    background:linear-gradient(rgba(45, 52, 54,.3),rgba(45, 52, 54,0.3)),url(1.jpg);
+    background-size: cover;
+}
+.pic1 .pics0 >div{
+    margin: 200px auto;
+    color: white;
+}
+.pic1 .pics0 >div h2{
+    font-size: 35px;
+    line-height: 8px;
+    letter-spacing: 5px;
+    margin-bottom: 35px;
+}
+.pic1 .pics0 >div h5{
+    font-size: 17px;
+    letter-spacing: 4px;
+}
+
+
+.pic1 .pics{
+    float: right;
+    width: 29%;
+    height: 470px;
+    
+}
+
+.pic1 .pics .p1{text-align: center;
+    height: 230px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(45, 52, 54,.5),rgba(45, 52, 54,.5)),url(2.jpg);
+    background-size: cover;
+   
+}
+
+.pic1 .pics .p{text-align: center;
+    background: linear-gradient(rgba(45, 52, 54,.5),rgba(45, 52, 54,.5)),url(3.jpg);
+    height: 230px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.pic1 .pics .p1 >div{
+   position: relative;
+    top: 100px;
+    color: white;
+}
+.pic1 .pics .p1 >div h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.pic1 .pics .p >div{
+   position: relative;
+    top: 100px;
+    color: white;
+}
+
+.pic1 .pics .p >div h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+/*end of pic1*/
+/*start of pic2*/
+.pic2{
+    width: 100%;
+    height: 470px;
+    overflow: hidden;
+    transform: translateY(-20px);
+    
+}
+.pic2 .pics2{
+    height: 470px;
+    width: 29%;
+    float: left;
+    color: white;
+}
+.pic2 .pics2 .p1{
+    text-align: center;
+    height: 230px;
+    width: 100%;
+    margin-bottom: 10px;
+    background: linear-gradient(rgba(45, 52, 54,.3),rgba(45, 52, 54,.3)),url(4.jpg);
+    background-size:  100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pic2 .pics2 .p1 >div{
+    position: relative;
+    top: 100px;
+}
+.pic2 .pics2 .p1 >div h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.pic2 .pics2 .p{
+    text-align: center;
+    height: 230px;
+      background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;  
+    background: linear-gradient(rgba(45, 52, 54,.3),rgba(45, 52, 54,.3)),url(6.jpg);
+    background-size: 100%;
+}
+.pic2 .pics2 .p >div{
+    position: relative;
+    top: 100px;
+}
+.pic2 .pics2 .p >div h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.pic2 .pics3{
+    float: right;
+    text-align: center;
+    width:70%;
+    color: white;
+    height: 470px;
+    background: linear-gradient(rgba(45, 52, 54,.3),rgba(45, 52, 54,.3)),url(7.jpg);
+    background-size: cover;
+    
+}
+
+.pic2 .pics3  >div{
+    position: relative;
+    top: 200px;
+}
+.pic2 .pics3  >div h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+    letter-spacing: 4px;
+    line-height: 10px;
+}
+
+/*end of pic2*/
+/*start of pic3*/
+.pic3{
+    transform:translateY(-8px);   
+    margin-bottom: 70px;
+    overflow:hidden;
+    
+}
+.pic3 .pics3{
+    float: left;
+    text-align: center;
+    width: 70%;
+    height: 470px;
+    background:linear-gradient(rgba(45, 52, 54,.3),rgba(45, 52, 54,0.3)),url(5.jpg);
+    background-size: cover;
+}
+.pic3 .pics3 >div{
+    margin: 200px auto;
+    color: white;
+}
+.pic3 .pics3 >div h2{
+    font-size: 35px;
+    line-height: 8px;
+    letter-spacing: 5px;
+    margin-bottom: 35px;
+}
+.pic3 .pics3 >div h5{
+    font-size: 17px;
+    letter-spacing: 4px;
+}
+
+.pic3 .pics4{
+    float: right;
+    width: 29%;
+    height: 470px;
+    
+}
+
+.pic3 .pics4 .p2{text-align: center;
+    height: 230px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(45, 52, 54,.5),rgba(45, 52, 54,.5)),url(9.jpg);
+    background-size: cover;
+   
+}
+
+.pic3 .pics4 .p3{text-align: center;
+    background: linear-gradient(rgba(45, 52, 54,.5),rgba(45, 52, 54,.5)),url(8.jpg);
+    height: 230px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.pic3 .pics4 .p2 >div{
+   position: relative;
+    top: 100px;
+    color: white;
+}
+.pic3 .pics4 .p2 >div h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.pic3 .pics4 .p3 >div{
+   position: relative;
+    top: 100px;
+    color: white;
+}
+
+.pic3 .pics4 .p3 >div h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+/*endof pic3*/
+/*start of footer*/
+footer{
+    background-color:black;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+footer .container>div{
+    height: 350px;
+    margin-top: 70px;
+    width: 33.333%;
+    float: left;
+    text-align: left;
+    color: grey;
+    padding-left: 10px;
+    
+}
+footer .container>div h1{
+    color: white;
+    font-weight: 200;
+    font-size: 40px;
+    margin-bottom: 40px;
+    
+}
+footer .container>div p{
+    font-size: 17px;
+    line-height: 30px;
+   
+}
+footer .row2 h4{
+  transform: translateY(20px);
+    font-size: 16px;
+    color: dimgray;
+   
+}
+footer .row2 >div{
+    height: 38%;
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    position: relative;
+    top: 50px;
+   
+    
+}
+footer .row2>div img{
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+    float: left;
+ 
+} 
+footer .row2>div h4{
+    font-size: 16px;
+    margin-top: 70px;
+transform: translateX(20px);
+    color: white;
+}
+footer .row2 hr{
+    background-color: grey;
+    border: none;
+   transform: translateY(58px);
+    height: 1px;
+    width: 97%;
+}
+
+footer .row3 input{
+    position: relative;
+    top: 70px;
+    left: 30px;
+    float: left;
+    margin-right: 5px;
+}
+footer .row3 input[type="text"]{
+    width: 70%;
+    height: 45px;
+    background-color: white;
+    color: gray;
+    padding: 10px 15px 10px;
+ 
+}
+footer .row3 input:active{
+    border: none;
+}
+footer .row3 input[type="submit"]{
+    width: 26%;
+    font-size: 12px;
+    font-weight: 550;
+    padding: 10px;
+    height: 45px;
+    color: white;
+    background-color: darkgray;
+    border: none;
+    
+}
+footer .row3 h4 {transform: translate(25px,20px);
+    font-size: 16px;
+    color: dimgray;
+   
+}
+/*end of footer*/
